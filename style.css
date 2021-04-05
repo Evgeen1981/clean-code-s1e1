@@ -164,7 +164,7 @@ h3,
     display: none;
 }
 
-ul li.edit-mode input[type=text] {
+ul li.edit-mode type-txt {
     display: inline-block;
     width: 224px;
 }
