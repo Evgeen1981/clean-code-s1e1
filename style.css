@@ -1,8 +1,3 @@
-@font-face {
-    font-family: "fantasy";
-    src: url("./Fantasy.woff") format("woff"),
-      url("./Fantasy.woff2") format("woff2");
-  }
   
 /* Basic Style */
 .main-block {
@@ -27,7 +22,7 @@
   }
 
   .eisenhower-matrix .more-inf {
-    font-family: "fantasy", cursive;
+    font-family: fantasy, cursive;
   }
   
   @media (max-width: 768px) {
