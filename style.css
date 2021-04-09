@@ -13,7 +13,7 @@
     text-align: right;
   }
 
-  .eisenhower-matrix .eisenhower-matrix-img {
+  .eisenhower-matrix .eisenhower-matrix__img {
     width: 100%;
   }
 
@@ -21,7 +21,7 @@
       padding: 0px;
   }
 
-  .eisenhower-matrix .more-inf {
+  .eisenhower-matrix .eisenhower-matrix__inf {
     font-family: fantasy, cursive;
   }
   
@@ -33,7 +33,7 @@
   
   }
 
-  .main-page-element {
+  .main-page {
     display: block;
     width: 500px;
     margin: 0 auto 0;
@@ -45,7 +45,7 @@
     flex-grow: 1;
   }
 
-  .task-row-wrapper {
+  .top__row-wrapper {
     display: flex;
   }
 
@@ -54,7 +54,7 @@
     padding: 0px;
   }
 
-  .task-list-element, 
+  .task-list__element, 
   .title {
     list-style: none;
   }
@@ -118,7 +118,7 @@
   }
   
   /* Task list */
-  .task-list-element {
+  .task-list__element {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
@@ -128,31 +128,31 @@
     align-items: center;
   }
 
-  .task-list-element > * {
+  .task-list__element > * {
     vertical-align: middle;
   }
   
-  .task-list-element > .input-default[type="checkbox"] {
+  .task-list__element > .input-default[type="checkbox"] {
     margin: 0 10px;
   }
 
-  .task-list-element > .label-default {
+  .task-list__element > .label-default {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
     width: 226px;
   }
-  .task-list-element >  .input-default[type="text"] {
+  .task-list__element >  .input-default[type="text"] {
     width: 226px;
   }
 
-  .button-default.delete .icon-img {
+  .button-default.delete .button-default__img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
   }
   
-  .button-default.delete .icon-img:hover {
+  .button-default.delete .button-default__img:hover {
     transform: rotateZ(0);
   }
   
@@ -163,15 +163,15 @@
   }
   
   /* Edit Task */
-  .task-list .task-list-element .input-default[type=text] {
+  .task-list .task-list__element .input-default[type=text] {
     display: none;
   }
   
-  .task-list .task-list-element.edit-mode .input-default[type=text] {
+  .task-list .task-list__element.edit-mode .input-default[type=text] {
     display: inline-block;
     width: 224px;
   }
   
-  .task-list .task-list-element.edit-mode .label-default {
+  .task-list .task-list__element.edit-mode .label-default {
     display: none;
   }
